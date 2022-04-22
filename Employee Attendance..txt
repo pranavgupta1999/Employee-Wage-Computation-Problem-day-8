@@ -1,0 +1,19 @@
+public class EmployeeWageComputation {
+	public static void main(String[] args) {
+		// Print Program name
+		System.out.println("Welcome to Employee Wage Computation !");
+
+		// Constant variable
+		int FullTime = 1;
+
+		// Using Random function getting input either 0 or 1.
+		int Emp_Check = (int) (Math.floor(Math.random() * 10) % 2);
+		System.out.println("Random value for Employee Attendence check is: " + Emp_Check);
+
+		if (EmpCheck == FullTime) {
+			System.out.println("Employee is present .");
+		} else {
+			System.out.println("Employee is Absent .");
+		}
+	}
+}
